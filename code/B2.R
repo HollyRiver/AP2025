@@ -19,7 +19,7 @@ if ((p(y)/p(x))<u) xx= c(xx,x)
 }
 
 thin = xx[seq(5001, 10000, by=100)]
-acf(thin)   
+acf(thin)
 # burn-in for the first half
 # check the ergodicity & thinning (by = 10, 50, 100) 
 
